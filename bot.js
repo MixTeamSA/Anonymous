@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "sa";
+ const prefix = "ar";
 client.on('message', message => {
-    var prefix = "sa";
+    var prefix = "ar";
 
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
